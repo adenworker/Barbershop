@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Каталог сайтов дизайн-студии NЁRDS</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<header class="main-header">
+		<nav class="main-mavigation">
+			<a class="header-logo"><img src="img/logo1.svg" width="150" height="40" alt="Логотип дизайн-студии NЁRDS"></a>
+			<ul class="site-navigation">
+				<li><a href="info.html">Студия</a></li>
+				<li><a href="clients.html">Клиенты</a></li>
+				<li class="site-navigation-current"><a href="catalog.html">Магазин</a></li>
+				<li><a href="contacts.html">Контакты</a></li>
+				<li><a href="buy.html">Корзина</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main class="container">
+		
+		<h1 class="catalog-heading">Магазин готовых шаблонов</h1>
+
+		<section class="filters">
+
+			<h2 class="visually-hidden">Фильтр сайтов</h2>
+
+			<form class="filter" method="get" action="https://echo.nerds.ru">
+
+				<p class="price-value-slider">Стоимость<input type="range" min="0" max="30000" step="100" value="12000" name="price-slider"></p>
+				<p class="price-minimum">От<input type="text" name="price-min" value="0"></p>
+				<p class="price-maximum">До<input type="text" name="price-max" value="12000"></p>
+
+				<fieldset>
+					<legend>Сетка:</legend>
+					<ul>
+						<li class="filter-option">
+							<input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-grid" value="adaptive" checked>
+							Адаптивная
+						</li>
+						<li class="filter-option">
+							<input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-grid" value="fixed">
+							Фиксированная
+						</li><li class="filter-option">
+							<input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-grid" value="flexible">
+							Резиновая
+						</li>
+					</ul>
+				</fieldset>
+
+				<fieldset>
+					<legend>Особенности:</legend>
+					<ul>
+						<li class="filter-option">
+							<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slider" checked>
+							Слайдер
+						</li>
+						<li class="filter-option">
+							<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="advantages">
+							Блок преимуществ
+						</li>
+						<li class="filter-option">
+							<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="news" checked>
+							Новости
+						</li>
+						<li class="filter-option">
+							<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="gallery">
+							Галерея
+						</li>
+						<li class="filter-option">
+							<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="basket">
+							Корзина
+						</li>
+					</ul>
+				</fieldset>
+
+				<button class="filter-button button" type="submit">Показать</button>
+
+			</form>
+			
+		</section>
+
+		<section>
+			
+			<h2 class="visually-hidden">Результаты поиска</h2>
+
+			<p class="filter-results-heading">Сортировать:</p>
+			<p>
+				<ul class="filter-results-options">
+					<li class="filter-results-option">По цене</li>
+					<li class="filter-results-option">По типу</li>
+					<li class="filter-results-option">По названию</li>
+					<li class="filter-results-option"><img src="filter-button-down.svg"></li>
+					<li class="filter-results-option"><img src="filter-up-down.svg"></li>
+				</ul>
+			</p>
+
+			<ul class="filter-results">
+				<li class="filter-result">
+					<img src="site-1.jpeg">
+					<div class="item-hover">
+						<p>Sedona</p>
+						<p>Информационный сайт<br>
+						для туристов</p>
+						<a href="basket.html">9900 руб.</a>
+					</div>
+				</li>
+				<li class="filter-result">
+					<img src="site-2.jpeg">
+					<div class="item-hover">
+						<p>Pink app</p>
+						<p>Продуктовый лендинг<br>
+						приложения для iOS и Android</p>
+						<a href="basket.html">9700 руб.</a>
+					</div>
+				</li>
+				<li class="filter-result">
+					<img src="site-3.jpeg">
+					<div class="item-hover">
+						<p>Barbershop</p>
+						<p>Сайт салона красоты.<br>
+						Для мужчин, да.</p>
+						<a href="basket.html">11900 руб.</a>
+					</div>
+				</li>
+				<li class="filter-result">
+					<img src="site-4.jpeg">
+					<div class="item-hover">
+						<p>Mishka</p>
+						<p>Интернет-магазин<br>
+						вязаных игрушек</p>
+						<a href="basket.html">10500 руб.</a>
+					</div>
+				</li>
+				<li class="filter-result">
+					<img src="site-5.jpeg">
+					<div class="item-hover">
+						<p>A plus</p>
+						<p>Лендинг курсов повышения<br>
+						квалификации</p>
+						<a href="basket.html">6900 руб.</a>
+					</div>
+				</li>
+				<li class="filter-result">
+					<img src="site-6.jpeg">
+					<div class="item-hover">
+						<p>Кваст</p>
+						<p>Промо-сайт производителя<br>
+						крафтового кваса</p>
+						<a href="basket.html">8200 руб.</a>
+					</div>
+				</li>
+			</ul>
+
+			<ul class="pagination-list">
+				<li class="pagination-item pagination-item-current"><a>1</a></li>
+				<li class="pagination-item"><a href="#">2</a></li>
+				<li class="pagination-item"><a href="#">3</a></li>
+				<li class="pagination-item"><a href="#">Следующая</a></li>
+			</ul>
+		</section>
+
+	</main>
+
+	<footer class="main-footer">
+
+		<section class="modal modal-map">
+			<h2 class="visually-hidden">Как до нас добраться</h2>
+			<span class="modal-close">x</span>
+		</section>
+
+		<div class="map-hover">
+			<p>
+				NЁRDS DESIGN STUDIO<br>
+				191186, Санкт-Петербург,<br>
+			</p>
+			<p>
+				тел. +7(812)275-75-75
+			</p>
+			<form action="https://echo.nerds.ru" method="post">
+				<button type="submit">Напишите нам</button>
+			</form>
+		</div>
+
+		<div class="footer-social">
+			<ul class="footer-social-buttons">
+				<li><a class="social-button" href="#">Вконтакте</a></li>
+				<li><a class="social-button" href="#">Фейсбук</a></li>
+				<li><a class="social-button" href="#">инстаграм</a></li>
+			</ul>			
+		</div>
+
+		<p>Давайте дружить, это выгодно!<br>
+			Скидка 10% для друзей из социальных сетей.
+		</p>
+		
+	</footer>
+
+	<section class="modal modal-letter">
+		<h2>Напишите нам</h2>
+		<form class="letter-form" action="https://echo.nerds.ru" method="post">
+			<p class="modal-letter-name">Ваше имя<input class="letter-name" type="text" name="name" placeholder="Представьтесь, пожалуйста"></p>
+			<p class="modal-letter-email">Ваш e-mail<input class="letter-email" type="text" name="e-mail" placeholder="Для отправки ответа"></p>
+			<p class="modal-letter-letter">Текст письма:
+			<textarea class="modal-letter-text" placeholder="В свободной форме"></textarea>
+			<button class="button" type="submit">Отправить</button>
+			<span class="modal-close">x</span>
+			</p>
+		</form>
+	</section>
+	
+</body>
+</html>
