@@ -1,0 +1,157 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../Nerds/fonts/Roboto-regular.woff") format("woff"),
+  url("../Nerds/fonts/Roboto-regular.woff2") format("woff2"),
+  url("../Nerds/fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../Nerds/fonts/Roboto-Medium.woff") format("woff"),
+  url("../Nerds/fonts/Roboto-Medium.woff2") format("woff2"),
+  url("../Nerds/fonts/Roboto-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../Nerds/fonts/Roboto-Bold.woff") format("woff"),
+  url("../Nerds/fonts/Roboto-Bold.woff2") format("woff2"),
+  url("../Nerds/fonts/Roboto-Bold.ttf") format("truetype");
+}
+
+* {
+	font-family:  "Roboto-regular", normal;
+	font-size: 16px;
+	color: 283136;
+	line-height: 24px;
+}
+
+.site-navigation {
+	font-family:  "Roboto-Medium", normal;
+	font-size: 16px;
+	color: 000000;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+
+.slider-header, .catalog-heading {
+	font-family:  "Roboto-Medium", normal;
+	font-size: 55px;
+	color: 000000;
+	line-height: 55px;
+	text-transform: none;
+}
+
+.product-header {
+	font-family:  "Roboto-Bold", normal;
+	font-size: 24px;
+	color: 000000;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+
+.presentation-header {
+	font-family:  "Roboto-Medium", normal;
+	font-size: 45px;
+	color: 000000;
+	line-height: 45px;
+	text-transform: none;
+}
+
+.presentation-underheader-1, .presentation-underheader-2 {
+	font-family:  "Roboto-Bold", normal;
+	font-size: 16px;
+	color: 000000;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+
+.advantages-list-value {
+	font-family:  "Roboto-Bold", normal;
+	font-size: 45px;
+	color: 000000;
+	line-height: 10.06px;
+	text-transform: none;
+}
+
+.advantages-list-text {
+	font-family:  "Roboto-regular", normal;
+	font-size: 16px;
+	color: 283136;
+	line-height: 28px;
+	text-transform: none;
+}
+
+.map-hover {
+	font-family:  "Roboto-regular", normal;
+	font-size: 16px;
+	color: 666666;
+	line-height: 18px;
+	text-transform: none;
+}
+
+.map-header, .price-value-slider, .radio-header, .checkbox-header, .filter-results-heading {
+	font-family:  "Roboto-Bold", normal;
+	font-size: 18px;
+	color: 000000;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+
+.social-header {
+	font-family:  "Roboto-Bold", normal;
+	font-size: 36px;
+	color: 000000;
+	line-height: 36px;
+	text-transform: none;
+}
+
+.social-text {
+	font-family:  "Roboto-regular", normal;
+	font-size: 16px;
+	color: 444444;
+	line-height: 22px;
+	text-transform: none;
+}
+
+.filter-option {
+	font-family:  "Roboto-regular", normal;
+	font-size: 16px;
+	color: 283136;
+	line-height: 20px;
+	text-transform: none;
+}
+
+.filter-results-options {
+	font-family:  "Roboto-regular", normal;
+	font-size: 14px;
+	color: 000000;
+	line-height: 18px;
+	text-transform: uppercase;
+	opacity: 0.3;
+}
+
+.pagination-item-current {
+	font-family:  "Roboto-regular", normal;
+	font-size: 14px;
+	color: 000000;
+	line-height: 18px;
+	text-transform: uppercase;
+	opacity: 1;
+}
+
+
+.visually-hidden { 
+    position: absolute !important;
+    height: 1px; width: 1px; 
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+.visually-hidden a:focus,
+.visually-hidden input:focus,
+.visually-hidden button:focus { 
+    position:static; 
+    width:auto; height:auto;  
+}
