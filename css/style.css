@@ -1,5 +1,4 @@
 @font-face {
   font-family: "PT Sans Narrow";
-  src:url("./fonts/ptsansnarrowbold.woff") format("woff"),
-  url("./fonts/ptsansnarrowbold.ttf") format("truetype");
+  src:url("../PT-Sans-Narrow-Web-Bold.ttf") format("truetype");
 }
