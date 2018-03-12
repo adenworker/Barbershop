@@ -40,6 +40,16 @@ ul {
     list-style-type: none;
 }
 
+.checkbox-list {
+    padding: 40px;
+    list-style-type: disc;
+}
+
+.radio-list {
+    padding: 40px;
+    list-style-type: disc;
+}
+
 .visually-hidden { 
     position: absolute;
     width: 1px;
