@@ -40,6 +40,41 @@ h3 {
     list-style-type: none;
 }
 
+.user-navigation {
+    padding: 0;
+    list-style-type: none;
+}
+
+.features-list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.news-list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer-social-buttons {
+    padding: 0;
+    list-style-type: none;
+}
+
+.breadcrumbs {
+    padding: 0;
+    list-style-type: none;
+}
+
+.catalog-list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.pagination-list {
+    padding: 0;
+    list-style-type: none;
+}
+
 .visually-hidden { 
     position: absolute;
     width: 1px;
