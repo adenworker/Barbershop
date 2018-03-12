@@ -35,6 +35,10 @@ h3 {
 	color: 000000;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .visually-hidden { 
     position: absolute;
     width: 1px;
