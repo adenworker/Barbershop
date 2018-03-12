@@ -100,3 +100,41 @@ ul {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+label {
+		  cursor: pointer;
+}
+
+label:before {  
+	    content: "";
+	    width: 20px;
+	    height: 20px;
+	    position: absolute;  
+	    left: 0;
+	}
+	
+input[type=checkbox] {  
+    	display: none;  
+	}
+	
+.checkbox label:before {
+		background: url('../Barbershop/img/checkbox-frame.svg') left center no-repeat;
+    margin-top: 2px;
+	}
+	
+input[type=checkbox]:checked + label:before {  
+	    background: url('../Barbershop/img/checkbox-cross.svg') left center no-repeat;  
+	}
+
+input[type=radio] {  
+    	display: none;  
+	}
+	
+.checkbox label:before {
+		background: url('../Barbershop/img/radio-frame.svg') left center no-repeat;
+    margin-top: 2px;
+	}
+	
+input[type=radio]:checked + label:before {  
+	    background: url('../Barbershop/img/radio-dot.svg') left center no-repeat;  
+	}
