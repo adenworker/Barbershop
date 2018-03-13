@@ -31,8 +31,14 @@
 			<form class="filter" method="get" action="https://echo.nerds.ru">
 
 				<p class="price-value-slider">Стоимость<input type="range" min="0" max="30000" step="100" value="12000" name="price-slider"></p>
-				<p class="price-minimum">От<input type="text" name="price-min" value="0"></p>
-				<p class="price-maximum">До<input type="text" name="price-max" value="12000"></p>
+				<p class="price-minimum">
+					<label for="label-price-minimum">От</label>
+					<input id="label-price-minimum" type="text" name="price-min" value="0">
+				</p>
+				<p class="price-maximum">
+					<label for="label-price-maximum">До</label>
+					<input id="label-price-maximum" type="text" name="price-max" value="12000">
+				</p>
 
 				<fieldset>
 					<legend class="radio-header">Сетка:</legend>
@@ -101,7 +107,7 @@
 
 			<ul class="filter-results">
 				<li class="filter-result">
-					<img src="../Nerds/img/site-1.jpeg">
+					<img src="../Nerds/img/preview-sedona.jpg">
 					<div class="item-hover">
 						<p>Sedona</p>
 						<p>Информационный сайт<br>
@@ -110,7 +116,7 @@
 					</div>
 				</li>
 				<li class="filter-result">
-					<img src="../Nerds/img/site-2.jpeg">
+					<img src="../Nerds/img/preview-pink.jpg">
 					<div class="item-hover">
 						<p>Pink app</p>
 						<p>Продуктовый лендинг<br>
@@ -119,7 +125,7 @@
 					</div>
 				</li>
 				<li class="filter-result">
-					<img src="../Nerds/img/site-3.jpeg">
+					<img src="../Nerds/img/preview-barbershop.jpg">
 					<div class="item-hover">
 						<p>Barbershop</p>
 						<p>Сайт салона красоты.<br>
@@ -128,7 +134,7 @@
 					</div>
 				</li>
 				<li class="filter-result">
-					<img src="../Nerds/img/site-4.jpeg">
+					<img src="../Nerds/img/preview-mishka.jpg">
 					<div class="item-hover">
 						<p>Mishka</p>
 						<p>Интернет-магазин<br>
@@ -137,7 +143,7 @@
 					</div>
 				</li>
 				<li class="filter-result">
-					<img src="../Nerds/img/site-5.jpeg">
+					<img src="../Nerds/img/preview-aplus.jpg">
 					<div class="item-hover">
 						<p>A plus</p>
 						<p>Лендинг курсов повышения<br>
@@ -146,7 +152,7 @@
 					</div>
 				</li>
 				<li class="filter-result">
-					<img src="../Nerds/img/site-6.jpeg">
+					<img src="../Nerds/img/preview-kvast.jpg">
 					<div class="item-hover">
 						<p>Кваст</p>
 						<p>Промо-сайт производителя<br>
@@ -170,6 +176,9 @@
 
 		<section class="modal modal-map">
 			<h2 class="visually-hidden">Как до нас добраться</h2>
+			<p>
+			<img src="../Nerds/img/map.jpg" width="1440" height="420" alt="Офис компании находится по адресы ул. Большая Конюшенная 19/8, Санки-Петербург">
+			</p>
 			<span class="modal-close">x</span>
 		</section>
 
