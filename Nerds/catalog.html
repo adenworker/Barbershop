@@ -9,9 +9,9 @@
 
 	<header class="main-header">
 		<nav class="main-mavigation">
-			<a class="header-logo"><img src="img/logo1.svg" width="150" height="40" alt="Логотип дизайн-студии NЁRDS"></a>
+			<a class="header-logo"><img src="../Nerds/img/logo1.svg" width="150" height="40" alt="Логотип дизайн-студии NЁRDS"></a>
 			<ul class="site-navigation">
-				<li><a href="info.html">Студия</a></li>
+				<li><a href="index.html">Студия</a></li>
 				<li><a href="clients.html">Клиенты</a></li>
 				<li class="site-navigation-current"><a href="catalog.html">Магазин</a></li>
 				<li><a href="contacts.html">Контакты</a></li>
@@ -38,15 +38,16 @@
 					<legend class="radio-header">Сетка:</legend>
 					<ul>
 						<li class="filter-option">
-							<input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-grid" value="adaptive" checked>
-							Адаптивная
+							<label for="radio-adaptive">Адаптивная</label>
+							<input class="visually-hidden filter-input filter-input-radio" id="radio-adaptive" type="radio" name="product-grid" value="adaptive" checked>	
 						</li>
 						<li class="filter-option">
-							<input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-grid" value="fixed">
-							Фиксированная
-						</li><li class="filter-option">
-							<input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-grid" value="flexible">
-							Резиновая
+							<label for="radio-fixed">Фиксированная</label>
+							<input class="visually-hidden filter-input filter-input-radio" id="radio-fixed" type="radio" name="product-grid" value="fixed">							
+						</li>
+						<li class="filter-option">
+							<label for="radio-flexible">Резиновая</label>
+							<input class="visually-hidden filter-input filter-input-radio" id="radio-flexible" type="radio" name="product-grid" value="flexible">			
 						</li>
 					</ul>
 				</fieldset>
@@ -55,24 +56,24 @@
 					<legend class="checkbox-header">Особенности:</legend>
 					<ul>
 						<li class="filter-option">
-							<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slider" checked>
-							Слайдер
+							<label for="checkbox-slider">Слайдер</label>
+							<input class="visually-hidden filter-input filter-input-checkbox" id="checkbox-slider" type="checkbox" name="slider" checked>						
 						</li>
 						<li class="filter-option">
-							<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="advantages">
-							Блок преимуществ
+							<label for="checkbox-advantages">Блок преимуществ</label>
+							<input class="visually-hidden filter-input filter-input-checkbox" id="checkbox-advantages" type="checkbox" name="advantages">						
 						</li>
 						<li class="filter-option">
-							<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="news" checked>
-							Новости
+							<label for="checkbox-news">Новости</label>
+							<input class="visually-hidden filter-input filter-input-checkbox" id="checkbox-news" type="checkbox" name="news" checked>							
 						</li>
 						<li class="filter-option">
-							<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="gallery">
-							Галерея
+							<label for="checkbox-gallery">Галерея</label>
+							<input class="visually-hidden filter-input filter-input-checkbox" id="checkbox-gallery" type="checkbox" name="gallery">							
 						</li>
 						<li class="filter-option">
-							<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="basket">
-							Корзина
+							<label for="checkbox-basket">Корзина</label>
+							<input class="visually-hidden filter-input filter-input-checkbox" id="checkbox-basket" type="checkbox" name="basket">							
 						</li>
 					</ul>
 				</fieldset>
@@ -90,17 +91,17 @@
 			<p class="filter-results-heading">Сортировать:</p>
 			<p>
 				<ul class="filter-results-options">
-					<li class="filter-results-option pagination-item-current">По цене</li>
-					<li class="filter-results-option">По типу</li>
-					<li class="filter-results-option">По названию</li>
-					<li class="filter-results-option"><img src="filter-button-down.svg"></li>
-					<li class="filter-results-option"><img src="filter-up-down.svg"></li>
+					<li class="filter-results-option pagination-item-current"><button type="submit">По цене</button></li>
+					<li class="filter-results-option"><button type="submit">По типу</button></li>
+					<li class="filter-results-option"><button type="submit">По названию</button></li>
+					<li class="filter-results-option"><button type="submit"><img src="../Nerds/img/filter-button-down.svg"></button></li>
+					<li class="filter-results-option"><button type="submit"><img src="../Nerds/img/filter-up-down.svg"></button></li>
 				</ul>
 			</p>
 
 			<ul class="filter-results">
 				<li class="filter-result">
-					<img src="site-1.jpeg">
+					<img src="../Nerds/img/site-1.jpeg">
 					<div class="item-hover">
 						<p>Sedona</p>
 						<p>Информационный сайт<br>
@@ -109,7 +110,7 @@
 					</div>
 				</li>
 				<li class="filter-result">
-					<img src="site-2.jpeg">
+					<img src="../Nerds/img/site-2.jpeg">
 					<div class="item-hover">
 						<p>Pink app</p>
 						<p>Продуктовый лендинг<br>
@@ -118,7 +119,7 @@
 					</div>
 				</li>
 				<li class="filter-result">
-					<img src="site-3.jpeg">
+					<img src="../Nerds/img/site-3.jpeg">
 					<div class="item-hover">
 						<p>Barbershop</p>
 						<p>Сайт салона красоты.<br>
@@ -127,7 +128,7 @@
 					</div>
 				</li>
 				<li class="filter-result">
-					<img src="site-4.jpeg">
+					<img src="../Nerds/img/site-4.jpeg">
 					<div class="item-hover">
 						<p>Mishka</p>
 						<p>Интернет-магазин<br>
@@ -136,7 +137,7 @@
 					</div>
 				</li>
 				<li class="filter-result">
-					<img src="site-5.jpeg">
+					<img src="../Nerds/img/site-5.jpeg">
 					<div class="item-hover">
 						<p>A plus</p>
 						<p>Лендинг курсов повышения<br>
@@ -145,7 +146,7 @@
 					</div>
 				</li>
 				<li class="filter-result">
-					<img src="site-6.jpeg">
+					<img src="../Nerds/img/site-6.jpeg">
 					<div class="item-hover">
 						<p>Кваст</p>
 						<p>Промо-сайт производителя<br>
@@ -187,9 +188,9 @@
 
 		<div class="footer-social">
 			<ul class="footer-social-buttons">
-				<li><a class="social-button" href="#">Вконтакте</a></li>
-				<li><a class="social-button" href="#">Фейсбук</a></li>
-				<li><a class="social-button" href="#">инстаграм</a></li>
+				<li><a class="social-button" href="https://vk.com"><img src="../Nerds/img/vk.svg" alt="Вконтакте"></a></li>
+				<li><a class="social-button" href="https://www.facebook.com"><img src="../Nerds/img/fb.svg" alt="Фейсбук"></a></li>
+				<li><a class="social-button" href="https://www.instagram.com"><img src="../Nerds/img/insta.svg" alt="Инстаграм"></a></li>
 			</ul>			
 		</div>
 

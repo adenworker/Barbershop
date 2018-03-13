@@ -101,7 +101,7 @@ ul {
     overflow: hidden;
 }
 
-label {
+/*label {
 		  cursor: pointer;
 }
 
@@ -137,4 +137,4 @@ input[type=radio] {
 	
 input[type=radio]:checked + label:before {  
 	    background: url('../Barbershop/img/radio-dot.svg') left center no-repeat;  
-	}
+	}*/
