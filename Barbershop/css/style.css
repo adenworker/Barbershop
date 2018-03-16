@@ -1,4 +1,49 @@
-@font-face {
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "PT Sans Narrow", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 700;
+	color: #ffffff;
+	text-transform: uppercase;
+
+	background-color: #000000;
+	background-image: url(../Barbarshop/img/Background-main.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+a {
+	text-decoration: none;
+}
+
+.main-navigation {
+	font-size: 16px;
+	line-height: 20px;
+	color: #ffffff;
+
+	background-color: #000000;
+}
+
+.site-navigation,
+.user-navigation {
+	list-style: none;
+}
+
+.site-navigation a,
+.user-navigation a {
+	color: #ffffff;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+	background-color: #242424;
+}
+
+/*@font-face {
   font-family: "PT Sans Narrow";
   src: url("../fonts/PT-Sans-Narrow-Web-Bold.ttf") format("truetype");
 }
@@ -9,9 +54,9 @@
 	color: f7f4f1;
 	line-height: 24px;
 	text-transform: uppercase;
-}
+}*/
 
-h2 {
+/*h2 {
 	font-family:  "PT Sans Narrow", normal;
 	font-size: 30px;
 	color: f7f4f1;
@@ -38,7 +83,7 @@ h3 {
 ul {
     padding: 0;
     list-style-type: none;
-}
+}*/
 
 /*.site-navigation {
     padding: 0;
