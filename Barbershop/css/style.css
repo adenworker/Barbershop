@@ -9,7 +9,7 @@ body {
 	text-transform: uppercase;
 
 	background-color: #000000;
-	background-image: url(../Barbershop/img/Background-main.jpg);
+	background-image: url("../Barbershop/img/Background-main.jpg");
 	background-position: top center;
 	background-repeat: no-repeat;
 }
@@ -60,7 +60,7 @@ a {
 	color: #000000;
 
 	background-color: #f8f5f2;
-	background-image: url(../Barbershop/img/Background-news.jpg);
+	background-image: url("../Barbershop/img/Background-news.jpg");
 	background-position: 0 0;
 	background-repeat: repeat;  
 }
