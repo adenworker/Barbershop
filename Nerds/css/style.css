@@ -17,7 +17,37 @@ a {
 	text-decoration: none;
 }
 
+.main-header {
+	background-color: #eeeeee; 
+}
+
 .site-navigation {
+	font-size: 16px;
+	line-height: 30px;
+	color: #000000;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.site-navigation {
+	list-style: none;
+}
+
+.site-navigation a {
+	color: #000000;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+	color: #fb565a;
+}
+
+.site-navigation a:active {
+	color: #000000;
+	opacity: 0.3;
+}
+
+/*.site-navigation {
 	font-weight: 500;
 	font-size: 16px;
 	color: #000000;
