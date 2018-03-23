@@ -47,6 +47,297 @@ a {
 	opacity: 0.3;
 }
 
+.header-logo:hover,
+.header-logo:focus {
+	opacity: 0.8;
+}
+
+.header-logo:active {
+	opacity: 0.3;
+}
+
+.slider-points {
+	list-style: none;
+}
+
+.slider-header {
+	font-size: 55px;
+	line-height: 55px;
+	color: #000000;
+	font-weight: 500;
+	text-transform: none;
+}
+
+.slider a {
+	color: #ffffff;
+	text-transform: uppercase;
+	background-color: #fb565a;
+}
+
+.slider a:hover,
+.slider a:focus {
+	background-color: #e74246;
+}
+
+.slider a:active {
+	opacity: 0.3;
+	background-color: #d7373b;
+}
+
+.slider-radio {
+	list-style: none;
+	border: none;
+}
+
+.slider-changer {
+	border: none;
+}
+
+.product-list	{
+	list-style: none;
+}
+
+.product-header {
+	font-size: 24px;
+	line-height: 30px;
+	color: #000000;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.product-1 a {
+	color: #ffffff;
+	text-transform: uppercase;
+	background-color: #fb565a;
+}
+
+.product-1 a:hover,
+.product-1 a:focus {
+	background-color: #e74246;
+}
+
+.product-1 a:active {
+	opacity: 0.3;
+	background-color: #d7373b;
+}
+
+.product-2 a {
+	color: #ffffff;
+	text-transform: uppercase;
+	background-color: #00ca74;
+}
+
+.product-2 a:hover,
+.product-2 a:focus {
+	background-color: #00bc6c;
+}
+
+.product-2 a:active {
+	opacity: 0.3;
+	background-color: #00aa62;
+}
+
+.product-3 a {
+	color: #ffffff;
+	text-transform: uppercase;
+	background-color: #efc84a;
+}
+
+.product-3 a:hover,
+.product-3 a:focus {
+	background-color: #eab534;
+}
+
+.product-3 a:active {
+	opacity: 0.3;
+	background-color: #e5a722;
+}
+
+.presentation-header {
+	font-size: 45px;
+	line-height: 45px;
+	color: #000000;
+	font-weight: 500;
+	text-transform: none;
+}
+
+.presentation-list	{
+	line-height: 48px; 
+}
+
+.presentation-underheader-1	{
+	font-size: 16px;
+	line-height: 48px;
+	color: #000000;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.presentation-underheader-1	{
+	color: #000000;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.advantages-list {
+	list-style: none;
+}
+
+.advantages-list-value {
+	font-size: 45px;
+	line-height: 10.06px;
+	color: #000000;
+	font-weight: 700;
+	text-transform: none;
+}
+
+.advantages-list-text {
+	font-size: 16px;
+	line-height: 18px;
+	color: #283136;
+	font-weight: 400;
+	text-transform: none;
+}
+
+.clients-list {
+	list-style: none;
+}
+
+.clients-list a {
+	opacity: 0.2;
+}
+
+.clients-list a:hover,
+.clients-list a:focus {
+	opacity: 1;
+}
+
+.clients-list a:active {
+	opacity: 0.1;
+}
+
+.map-hover .button {
+	color: #ffffff;
+	text-transform: uppercase;
+	background-color: #fb565a;
+	border: none;
+}
+
+.map-hover .button:hover,
+.map-hover .button:focus {
+	background-color: #e74246;
+}
+
+.map-hover .button:active {
+	opacity: 0.3;
+	background-color: #d7373b;
+}
+
+.footer-social-buttons {
+	list-style: none;
+}
+
+.footer-social-buttons a {
+	color: #ffffff;
+	background-color: #e1e1e1;
+}
+
+.footer-social-buttons a:hover,
+.footer-social-buttons a:focus {
+	background-color: #e74246;
+}
+
+.footer-social-buttons a:active {
+	opacity: 0.3;
+	background-color: #d7373b;
+}
+
+.letter-form {
+	line-height: 18px;
+	font-weight: 700;
+}
+
+.modal-letter .button {
+	color: #ffffff;
+	text-transform: uppercase;
+	background-color: #fb565a;
+	border: none;
+}
+
+.modal-letter .button:hover,
+.modal-letter .button:focus {
+	background-color: #e74246;
+}
+
+.modal-letter .button:active {
+	opacity: 0.3;
+	background-color: #d7373b;
+}
+
+input[type=text] {
+	color: #d7dcde;
+	text-transform: none;
+	border: border: 2px solid #d7dcde;
+	border-radius: 4px;
+	border-color: #d7dcde;
+}
+
+input[type=text]:hover {
+	color: #b4b9bb;
+	text-transform: none;
+	border: border: 2px solid #b4b9bb;
+	border-radius: 4px;
+	border-color: #b4b9bb;
+}
+
+input[type=text]:focus {
+	color: #000000;
+	text-transform: none;
+	border: border: 2px solid #000000;
+	border-radius: 4px;
+	border-color: #000000;
+}
+
+input[type=text]:invalid {
+	color: #e74246;
+	text-transform: none;
+	border: border: 2px solid #e74246;
+	border-radius: 4px;
+	border-color: #e74246;
+}
+
+textarea {
+	color: #d7dcde;
+	text-transform: none;
+	border: border: 2px solid #d7dcde;
+	border-radius: 4px;
+	border-color: #d7dcde;
+}
+
+textarea:hover {
+	color: #b4b9bb;
+	text-transform: none;
+	border: border: 2px solid #b4b9bb;
+	border-radius: 4px;
+	border-color: #b4b9bb;
+}
+
+textarea:focus {
+	color: #000000;
+	text-transform: none;
+	border: border: 2px solid #000000;
+	border-radius: 4px;
+	border-color: #000000;
+}
+
+textarea:invalid {
+	color: #e74246;
+	text-transform: none;
+	border: border: 2px solid #e74246;
+	border-radius: 4px;
+	border-color: #e74246;
+}
+
 /*.site-navigation {
 	font-weight: 500;
 	font-size: 16px;
@@ -160,7 +451,7 @@ a {
 	text-transform: uppercase;
 	opacity: 1;
 }
-
+*/
 
 .visually-hidden { 
     position: absolute;
