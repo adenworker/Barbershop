@@ -338,6 +338,38 @@ textarea:invalid {
 	border-color: #e74246;
 }
 
+input[type=email] {
+	color: #d7dcde;
+	text-transform: none;
+	border: border: 2px solid #d7dcde;
+	border-radius: 4px;
+	border-color: #d7dcde;
+}
+
+input[type=email]:hover {
+	color: #b4b9bb;
+	text-transform: none;
+	border: border: 2px solid #b4b9bb;
+	border-radius: 4px;
+	border-color: #b4b9bb;
+}
+
+input[type=email]:focus {
+	color: #000000;
+	text-transform: none;
+	border: border: 2px solid #000000;
+	border-radius: 4px;
+	border-color: #000000;
+}
+
+input[type=email]:invalid {
+	color: #e74246;
+	text-transform: none;
+	border: border: 2px solid #e74246;
+	border-radius: 4px;
+	border-color: #e74246;
+}
+
 /*.site-navigation {
 	font-weight: 500;
 	font-size: 16px;
